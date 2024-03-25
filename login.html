@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La cocina de Juan</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Acerca de</a>
+        <a href="contact.html">Contacto</a>
+        <a href="sucursales.html">Sucursales</a>
+        <a href="login.html">Registro</a>
+        <h1>La cocina de Juan</h1>
+    </nav>
+    <header>
+        <h2>Formulario de registro</h2>
+        <form action="show_data.html" target="_blank">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre aqui..." required>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido aqui..." required>
+            <br>
+            <label for="adress">Dirección:</label>
+            <input type="text" name="adress" id="adress" placeholder="Ingrese su dirección aqui..." required>
+            <br>
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad" value="Córdoba" required>
+            <br>
+            <label for="codigo">Código postal:</label>
+            <input type="number" name="codigo" id="codigo" required>
+            <br>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" name="fecha" id="fecha" required>
+            <br>
+            <label for="genero">Género:</label>
+            <input type="radio" name="genero" value="Masculino" checked> Masculino
+            <input type="radio" name="genero" value="Femenino"> Femenino
+            <input type="radio" name="genero" value="Otro"> Otro
+            <br>
+            <label for="estudios">Estudios:</label>
+            <input type="checkbox" name="estudios" value="Primario" checked>Primario
+            <input type="checkbox" name="estudios" value="Secundario">Secundario
+            <input type="checkbox" name="estudios" value="Terciario">Terciario
+            <input type="checkbox" name="estudios" value="Universitario">Universitario
+            <input type="checkbox" name="estudios" value="Otro">Otro
+            <br>
+            <button type="submit">Enviar</button>
+
+        </form>
+        <p>La información sera enviada a la página "show_data.html"</p>
+    </header>
+    <footer>
+        <a href="http://www.instagram.com"><img src="imagenes/instagram.png" alt="Instagram" width="20"></a>
+        <a href="http://www.pinterest.com"><img src="imagenes/pinterest.jpg" alt="Pinterert" width="20"></a>
+        <a href="http://www.facebook.com"><img src="imagenes/facebook.jpg" alt="Facebook" width="20"></a>
+        <p>Derechos reservados @2024 - Eugenia Marinzalda & Codo a Codo</p>
+    </footer>
+</body>
+
+</html>
