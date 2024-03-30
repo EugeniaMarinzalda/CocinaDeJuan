@@ -1,0 +1,45 @@
+/*
+#899AA1 AZUL
+#BDA2A2 LILA 
+#FBBE9A NARANJA ROSA
+#FAD889 AMARILLO ANARANJADO
+#FAF5C8 AMARILLO CLARITO
+*/
+* {
+    font-family: Ubuntu;
+    text-align: center;
+    color: rgba(18, 85, 207, 0.815);
+}
+
+footer, nav {
+    background-color: #BDA2A2;
+    padding: 2%;
+}
+
+body {
+    background-color: #FAF5C8;
+}
+
+h1 {
+    margin: 1%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 2%;
+}
+
+div{
+    padding: 1%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
